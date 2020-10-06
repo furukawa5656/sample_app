@@ -12,7 +12,7 @@
   </head>
 
   <body>
-  	<header class="navbar navbar-fixed-top navbar-inverse">
+  	<header class="navbar navbar-fixed-top navbar-inverse">  <!-- navbar-inverse=色を黒にする -->
 	  <div class="container">
 	    <%= link_to "sample app", '#', id: "logo" %>
 	    <nav>
@@ -24,6 +24,8 @@
 	    </nav>
 	  </div>
 	</header>
+	<div class="container">
     <%= yield %>
+	</div>
   </body>
 </html>
